@@ -19,11 +19,11 @@
 		973C8A232241261C00C682CE /* PhotoListCellViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C8A222241261C00C682CE /* PhotoListCellViewModelTest.swift */; };
 		973C8A252241266000C682CE /* FlickerPhotoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C8A242241266000C682CE /* FlickerPhotoTest.swift */; };
 		973C8A272241267900C682CE /* APIClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C8A262241267900C682CE /* APIClientTest.swift */; };
-		973C8A2B2241720400C682CE /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 973C8A2A2241720300C682CE /* response.json */; };
 		97797834223E1D950025AD96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97797833223E1D950025AD96 /* AppDelegate.swift */; };
 		9779783B223E1D970025AD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9779783A223E1D970025AD96 /* Assets.xcassets */; };
 		9779783E223E1D970025AD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9779783C223E1D970025AD96 /* LaunchScreen.storyboard */; };
 		97797854223E1D970025AD96 /* FlickerSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97797853223E1D970025AD96 /* FlickerSearchUITests.swift */; };
+		97AA5C162241F33800786D70 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 97AA5C152241F33800786D70 /* response.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		973C8A222241261C00C682CE /* PhotoListCellViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCellViewModelTest.swift; sourceTree = "<group>"; };
 		973C8A242241266000C682CE /* FlickerPhotoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotoTest.swift; sourceTree = "<group>"; };
 		973C8A262241267900C682CE /* APIClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTest.swift; sourceTree = "<group>"; };
-		973C8A2A2241720300C682CE /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = response.json; path = "../../../Downloads/UberChallenge-master/UberTestTests/response.json"; sourceTree = "<group>"; };
 		97797830223E1D950025AD96 /* FlickerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97797833223E1D950025AD96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9779783A223E1D970025AD96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +66,7 @@
 		9779784F223E1D970025AD96 /* FlickerSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97797853223E1D970025AD96 /* FlickerSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchUITests.swift; sourceTree = "<group>"; };
 		97797855223E1D970025AD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97AA5C152241F33800786D70 /* response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,12 +176,12 @@
 		97797847223E1D970025AD96 /* FlickerSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				973C8A2A2241720300C682CE /* response.json */,
 				9779784A223E1D970025AD96 /* Info.plist */,
 				973C8A202241260400C682CE /* PhotoListViewModelTest.swift */,
 				973C8A222241261C00C682CE /* PhotoListCellViewModelTest.swift */,
 				973C8A242241266000C682CE /* FlickerPhotoTest.swift */,
 				973C8A262241267900C682CE /* APIClientTest.swift */,
+				97AA5C152241F33800786D70 /* response.json */,
 			);
 			path = FlickerSearchTests;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973C8A2B2241720400C682CE /* response.json in Resources */,
+				97AA5C162241F33800786D70 /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
